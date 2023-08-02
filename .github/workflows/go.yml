@@ -25,9 +25,9 @@ jobs:
       -
         name: go 
         run: |
-          go mod init github.com/jewzi/devkit
+          #go mod init github.com/jewzi/devkit
           #go mod init github.com/jewzi/braive
-          #go mod tidy
+          go mod tidy
       -
         name: Set up Git
         run: |
